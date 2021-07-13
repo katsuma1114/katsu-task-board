@@ -1,0 +1,14 @@
+@import './variables';
+.btn-primary {
+    width: 393px;
+    height: 40px;
+    top: 650px;
+    background-color: $btn-primary-color;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    padding: 16px 0;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+  }
