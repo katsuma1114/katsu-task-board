@@ -1,0 +1,30 @@
+input, select {
+    &.text {
+      width: 100%;
+      height: 40px;
+      top: 190px;
+      margin: 8px 0px 35px;
+      padding: 16px 24px;
+      border: 1px solid #EBEBEB;
+      border-radius: 10px;
+      background: #F4F4F4;
+    }
+  }
+  
+  label {
+    width: 44px;
+    height: 25px;
+    left: 26;
+    top: 161px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  textarea {
+    width: 100%;
+    margin: 8px 0px;
+    padding: 8px 8px;
+    min-height: 440px;
+    resize: vertical;
+    border: 1px solid #EBEBEB;
+  }
