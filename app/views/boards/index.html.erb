@@ -1,0 +1,30 @@
+<div class="board">
+  <div class="container">
+    <h2 class='pageTitle'>All Boards</h2>
+    <% @boards.each do |board| %>
+      <div class="card_contents">
+        <div class="card_top">
+            <p class="card_title">
+              <%= board.title %>
+            </p>
+            <div class="board_detail_actions">
+              <div class="dropdown">
+                <%= image_tag 'actions.button.svg', class: 'dropbtn' %>
+                <div class="dropdown-content mini">
+                   <a href="#">Edit</a>
+                   <a href="#">Delete</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="card_description">
+          <%= board.description %>
+        </div>
+          <%= image_tag 'default-avatar.png', class: 'card_avatar'%>　
+      </div>
+    <%end%>
+    <div class="add_board">
+      <p class="new_board">+ Add new board </p>
+    </div>
+  </div>
+</div>
